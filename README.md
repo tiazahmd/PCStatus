@@ -8,3 +8,5 @@ $ gitclone https://github.com/tiazahmd/PCStatus
 $ cd PCStatus
 $ python3 main.py
 ```
+### Screenshot:
+![PCStatus Screenshot](https://raw.githubusercontent.com/tiazahmd/PCStatus/master/PCStatus-Screenshot.png)
