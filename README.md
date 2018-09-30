@@ -7,9 +7,13 @@ Requirements:
 - Python3.6
 - PyQt5 [GUI Framework]
 - psutil [Python library]
+
+Edit: Added requirements.txt so that it's easy to install from there.
+
 ```
 $ gitclone https://github.com/tiazahmd/PCStatus
 $ cd PCStatus
+$ pip install -r requirements.txt
 $ python3 main.py
 ```
 ### Screenshot:
