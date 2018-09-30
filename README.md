@@ -13,7 +13,7 @@ Edit: Added requirements.txt so that it's easy to install from there.
 ```
 $ gitclone https://github.com/tiazahmd/PCStatus
 $ cd PCStatus
-$ pip install -r requirements.txt
+$ pip install -r `requirements.txt`
 $ python3 main.py
 ```
 ### Screenshot:
