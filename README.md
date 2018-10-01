@@ -8,8 +8,6 @@ Requirements:
 - PyQt5 [GUI Framework]
 - psutil [Python library]
 
-Edit: Added requirements.txt so that it's easy to install from there.
-
 ```
 $ git clone https://github.com/tiazahmd/PCStatus
 $ cd PCStatus
