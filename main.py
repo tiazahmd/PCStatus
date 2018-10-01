@@ -36,6 +36,9 @@ def main():
     app = QtWidgets.QApplication(sys.argv)
     pcstatus = MainApp()
     pcstatus.show()
+    timer = QtCore.QTimer()
+    timer.timeout.connect(pcstatus.update_ui)
+    timer.start(3000)
     app.exec_()  # exec is a python reserve keyword
 
 if __name__ == "__main__":
