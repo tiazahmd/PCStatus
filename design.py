@@ -121,9 +121,6 @@ class Ui_MainWindow(object):
         self.btnExit = QtWidgets.QPushButton(self.centralwidget)
         self.btnExit.setObjectName("btnExit")
         self.gridLayout.addWidget(self.btnExit, 2, 3, 1, 1)
-        self.btnRefresh = QtWidgets.QPushButton(self.centralwidget)
-        self.btnRefresh.setObjectName("btnRefresh")
-        self.gridLayout.addWidget(self.btnRefresh, 2, 2, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -159,7 +156,7 @@ class Ui_MainWindow(object):
         self.label_3.setText(_translate("MainWindow", "CPU Utilization"))
         self.boxPower.setTitle(_translate("MainWindow", "Power"))
         self.labCPUTemp.setText(_translate("MainWindow", "28°"))
-        self.label_4.setText(_translate("MainWindow", "CPU Temp"))
+        self.label_4.setText(_translate("MainWindow", "CPU Temp."))
         self.label_5.setText(_translate("MainWindow", "GPU Temp"))
         self.labGPUTemp.setText(_translate("MainWindow", "28°"))
         self.labCPUFanSpeed.setText(_translate("MainWindow", "2000 RPM"))
@@ -167,5 +164,4 @@ class Ui_MainWindow(object):
         self.labGPUFanSpeed.setText(_translate("MainWindow", "2000 RPM"))
         self.label_15.setText(_translate("MainWindow", "GPU Fan"))
         self.btnExit.setText(_translate("MainWindow", "Exit"))
-        self.btnRefresh.setText(_translate("MainWindow", "Refresh"))
 

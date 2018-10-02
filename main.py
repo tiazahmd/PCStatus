@@ -7,7 +7,6 @@ class MainApp(QtWidgets.QMainWindow, design.Ui_MainWindow):
         super(MainApp, self).__init__(parent)
         self.setupUi(self)
         self.update_ui()
-        self.btnRefresh.clicked.connect(self.update_ui)
         self.btnExit.clicked.connect(self.exit_program)
         
     def update_ui(self):
