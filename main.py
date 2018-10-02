@@ -28,14 +28,18 @@ class MainApp(QtWidgets.QMainWindow, design.Ui_MainWindow):
         self.labGPUTemp.setText(modules.gpu_temp())
 
     def exit_program(self):
-        sys.exit()
+        # correct way to quit qt app instance
+        self.close()
         
 
 def main():
     app = QtWidgets.QApplication(sys.argv)
     pcstatus = MainApp()
     pcstatus.show()
-    app.exec()
+    timer = QtCore.QTimer()
+    timer.timeout.connect(pcstatus.update_ui)
+    timer.start(3000)
+    app.exec_()  # exec is a python reserve keyword
 
 if __name__ == "__main__":
     main()
